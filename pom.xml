@@ -26,6 +26,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<username>satyalikhithakeerthi</username>
+				<password>Ravindra123</password>
+				<environment>Sandbox </environment>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				<applicationName>invoice-service</applicationName>		
+				<muleVersion>4.2.2</muleVersion>	
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
