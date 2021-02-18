@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="invoiceappFlow" doc:id="298f4142-11fe-433f-a6f2-9cadd36bc645" >
+		<scheduler doc:name="Scheduler" doc:id="cf367451-21ba-49da-b8cb-69b107e7d960" >
+			<scheduling-strategy >
+				<fixed-frequency />
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="2e01a21a-bde9-4af3-8f70-35128a33f037" message="INVOICE APP LOGGER"/>
+	</flow>
+</mule>
