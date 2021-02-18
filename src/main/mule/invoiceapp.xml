@@ -9,6 +9,6 @@
 				<fixed-frequency />
 			</scheduling-strategy>
 		</scheduler>
-		<logger level="INFO" doc:name="Logger" doc:id="2e01a21a-bde9-4af3-8f70-35128a33f037" message="INVOICE APP LOGGER 1234"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2e01a21a-bde9-4af3-8f70-35128a33f037" message="INVOICE APP LOGGER 1234567890"/>
 	</flow>
 </mule>
