@@ -33,6 +33,7 @@
 				<applicationName>invoice-service</applicationName>		
 				<muleVersion>4.2.2</muleVersion>	
 				<workerType>MICRO</workerType>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
