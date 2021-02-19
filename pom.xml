@@ -29,7 +29,7 @@
 				<cloudHubDeployment>
 				<username>satyalikhithakeerthi</username>
 				<password>Ravindra123</password>
-				<environment>Sandbox </environment>
+				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>invoice-service</applicationName>		
